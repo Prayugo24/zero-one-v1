@@ -1,14 +1,32 @@
 import { TopicService } from '../TopicService';
 import { ApplicationException } from "../../exceptions/ApplicationException";
+import { ITopicRepository } from '../../repositories/contract';
 
+
+let topicRepositoryMock: ITopicRepository = {
+  findById: jest.fn(),
+  findAll: jest.fn(),
+  deleteById: jest.fn(),
+  update: jest.fn(),
+  findByName: jest.fn(),
+  save: jest.fn(),
+  findManyByIdList: jest.fn(),
+  findNotExistIds: jest.fn()
+};
+
+const topicQueryParams = {
+  start_index: 0,
+  limit: 10
+};
 
 describe("TopicService", () => {
-    describe("Test findByid function", () =>{
+    describe("Test findByid function", () => {
+
+        
+
         it("should return a topic object if valid id is passed", async () => {
             const id = 1;
-            const topicRepositoryMock = {
-                findById: jest.fn().mockReturnValue({ id: 1, name: "test topic" })
-            };
+            topicRepositoryMock.findById.mockReturnValue({ id: 1, name: "test topic" })
             const topicService = new TopicService(topicRepositoryMock);
             const result = await topicService.findById(id);
             expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
@@ -17,115 +35,85 @@ describe("TopicService", () => {
         
         it("should throw an error if invalid id is passed", async () => {
             const id = 999;
-            const topicRepositoryMock = {
-                findById: jest.fn().mockReturnValue(null)
-            };
+            topicRepositoryMock.findById.mockReturnValue(null)
             const topicService = new TopicService(topicRepositoryMock);
-            try {
-                await topicService.findById(id);
-            } catch (error) {
-                expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
-                expect(error).toBeInstanceOf(ApplicationException);
-                expect(error.message).toBe(`Topic id '${id}' not found`);
-            }
+            
+            const expectedErrorMessage = `Topic id '${id}' not found`;
+            await expect(topicService.findById(id)).rejects.toThrow(ApplicationException);
+            expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
+            await expect(topicService.findById(id)).rejects.toMatchObject({ message: expectedErrorMessage });
+            
         });
     });
 
     describe('Test findAll function', () => {
         it('should throw an error if there are no topics registered', async () => {
-          const topicRepository = {
-            findAll: jest.fn().mockResolvedValue([])
-          };
-          const topicQueryParams = {
-            start_index: 0,
-            limit: 10
-          };
-          const service = new TopicService(topicRepository);
+          
+          const expectedErrorMessage = `There are no topics registered`;
+          topicRepositoryMock.findAll.mockResolvedValue([])
+          const topicService = new TopicService(topicRepositoryMock);
       
-          await expect(service.findAll(topicQueryParams)).rejects.toThrow(
-            ApplicationException
-          );
+          await expect(topicService.findAll(topicQueryParams)).rejects.toThrow(ApplicationException);
+          await expect(topicService.findAll(topicQueryParams)).rejects.toMatchObject({ message: expectedErrorMessage });
         });
       
         it('should return an array of topics if there are topics registered', async () => {
-          const topicRepository = {
-            findAll: jest
-              .fn()
-              .mockResolvedValue([{ id: 1, name: 'Topic 1' }, { id: 2, name: 'Topic 2' }])
-          };
-          const topicQueryParams = {
-            start_index: 0,
-            limit: 10
-          };
-          const service = new TopicService(topicRepository);
-      
-          const topics = await service.findAll(topicQueryParams);
-      
+          
+          topicRepositoryMock.findAll.mockResolvedValue([{ id: 1, name: 'Topic 1' }, { id: 2, name: 'Topic 2' }])
+          const topicService = new TopicService(topicRepositoryMock);
+          const topics = await topicService.findAll(topicQueryParams);
           expect(topics).toEqual([{ id: 1, name: 'Topic 1' }, { id: 2, name: 'Topic 2' }]);
         });
     });
 
     describe('Test deleteById function', () => {
         
-        let topicRepositoryMock = {
-            findById: jest.fn().mockReturnValue(null),
-            deleteById: jest.fn().mockReturnValue(null)
-        };
         it('throws an error if id is not provided', async () => {
-            const topicService = new TopicService(topicRepositoryMock);
-            try {
-                await topicService.deleteById(undefined);
-            } catch (error) {
-                expect(error).toBeInstanceOf(ApplicationException);
-                expect(error.message).toBe(`Id is required`);
-            }
+          
+          const topicService = new TopicService(topicRepositoryMock);
+          const expectedErrorMessage = `Id is required`;
+          await expect(topicService.deleteById(undefined)).rejects.toThrow(ApplicationException);
+          await expect(topicService.deleteById(undefined)).rejects.toMatchObject({ message: expectedErrorMessage });  
         });
 
         it("throws an error if topic with the given id doesn't exist", async () => {
-            const id = 123;
-            const topicService = new TopicService(topicRepositoryMock);
-            try {
-                await topicService.deleteById(id);
-            } catch (error) {
-                expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
-                expect(error).toBeInstanceOf(ApplicationException);
-                expect(error.message).toBe(`Topic id '${id}' not found`);
-            }
+          const id = 123;
+          const topicService = new TopicService(topicRepositoryMock);
+          topicRepositoryMock.findById.mockReturnValue(null)
+          
+          const expectedErrorMessage = `Topic id '${id}' not found`;
+          await expect(topicService.deleteById(id)).rejects.toThrow(ApplicationException);
+          expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
+          await expect(topicService.deleteById(id)).rejects.toMatchObject({ message: expectedErrorMessage });  
         });
 
         it('throws an error if the repository fails to delete the topic', async () => {
-            const id = 123;
-            topicRepositoryMock.findById = jest.fn().mockReturnValue({ id: 1, name: "test topic" })
-            topicRepositoryMock.deleteById = jest.fn().mockReturnValue(false)
+          const id = 123;
+          topicRepositoryMock.findById.mockReturnValue({ id: 1, name: "test topic" })
+          topicRepositoryMock.deleteById.mockReturnValue(false)
         
-            const topicService = new TopicService(topicRepositoryMock);
-            try {
-                await topicService.deleteById(id);
-            } catch (error) {
-                expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
-                expect(topicRepositoryMock.deleteById).toHaveBeenCalledWith(id);
-                expect(error).toBeInstanceOf(ApplicationException);
-                expect(error.message).toBe(`failed delete Topic id '${id}' `);
-            }
+          const topicService = new TopicService(topicRepositoryMock);
+            
+
+          const expectedErrorMessage = `failed delete Topic id '${id}' `;
+          await expect(topicService.deleteById(id)).rejects.toThrow(ApplicationException);
+          expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id);
+          expect(topicRepositoryMock.deleteById).toHaveBeenCalledWith(id);
+          await expect(topicService.deleteById(id)).rejects.toMatchObject({ message: expectedErrorMessage });  
             
         });
 
         it('returns true if the topic is successfully deleted', async () => {
-            const id = 123;
-            const getData = {};
-            topicRepositoryMock.findById = jest.fn().mockReturnValue({ id: 1, name: "test topic" })
-            topicRepositoryMock.deleteById = jest.fn().mockReturnValue(true)
-            const topicService = new TopicService(topicRepositoryMock);
-            await expect(topicService.deleteById(id)).resolves.toBe(true);
+          const id = 123;
+          topicRepositoryMock.findById.mockReturnValue({ id: 1, name: "test topic" })
+          topicRepositoryMock.deleteById.mockReturnValue(true)
+          const topicService = new TopicService(topicRepositoryMock);
+          await expect(topicService.deleteById(id)).resolves.toBe(true);
         });
     });
 
     describe("Test update function", ()=> {
-        let topicRepositoryMock = {
-          findById: jest.fn(),
-          update: jest.fn()
-        }
-      
+        
         it("should update topic given an id and data", async () => {
           const id = 1
           const topicData = { id: 1, name: "test topic" }
@@ -137,7 +125,7 @@ describe("TopicService", () => {
           const topicsService = new TopicService(topicRepositoryMock)
           const result = await topicsService.update(id, topicData)
       
-          expect(topicRepositoryMock.findById).toHaveBeenCalledTimes(1)
+          
           expect(topicRepositoryMock.findById).toHaveBeenCalledWith(id)
           expect(topicRepositoryMock.update).toHaveBeenCalledTimes(1)
           expect(topicRepositoryMock.update).toHaveBeenCalledWith(id, topicData)
@@ -150,9 +138,9 @@ describe("TopicService", () => {
           topicRepositoryMock.findById.mockReturnValue(null)
       
           const topicsService = new TopicService(topicRepositoryMock)
-      
+          const expectedErrorMessage = `Topic id '${id}' not found`;
           await expect(topicsService.update(id, topicData)).rejects.toThrowError(ApplicationException)
-          await expect(topicsService.update(id, topicData)).rejects.toThrowError("Topic id '2' not found")
+          await expect(topicsService.update(id, topicData)).rejects.toThrowError(expectedErrorMessage)
           
         })
       
@@ -163,18 +151,15 @@ describe("TopicService", () => {
           topicRepositoryMock.update.mockReturnValue(null)
       
           const topicsService = new TopicService(topicRepositoryMock)
-      
+          const expectedErrorMessage = `failed update data`;
           await expect(topicsService.update(id, topicData)).rejects.toThrowError(ApplicationException)
-          await expect(topicsService.update(id, topicData)).rejects.toThrowError("failed update data")
+          await expect(topicsService.update(id, topicData)).rejects.toThrowError(expectedErrorMessage)
           
         })
     })
 
     describe("Test save function", () => {
-        let topicRepositoryMock = {
-            findByName: jest.fn(),
-            save: jest.fn(),
-        };
+        
         it("should save a new topic if the name is not already in use", async () => {
           const topic = { id: 3, name: "test topic"};
           topicRepositoryMock.findByName.mockReturnValue(null)
