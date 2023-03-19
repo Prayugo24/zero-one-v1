@@ -16,7 +16,15 @@
   "author": "Prayugo24",
   "license": "ISC",
   "jest": {
-    "maxConcurrency": 5
+    "maxConcurrency": 5,
+    "verbose": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80
+      }
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
