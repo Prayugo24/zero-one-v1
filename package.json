@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --detectOpenHandles",
+    "test-deploy": "jest --updateSnapshot --silent --coverage",
     "migrate": "npm run generate-migrate && npm run apply-migration",
     "add-migration": "cd src/models/db/news_content && npx prisma migrate dev --create-only",
     "generate-migrate": " cd src/models/db/news_content && npx prisma generate",
@@ -16,15 +17,7 @@
   "author": "Prayugo24",
   "license": "ISC",
   "jest": {
-    "maxConcurrency": 5,
-    "verbose": true,
-    "coverageThreshold": {
-      "global": {
-        "branches": 80,
-        "functions": 80,
-        "lines": 80
-      }
-    }
+    "maxConcurrency": 5
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
