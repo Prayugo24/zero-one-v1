@@ -1,53 +1,83 @@
 import { NewsService } from "../NewsService"
 import { ApplicationException } from "../../exceptions/ApplicationException";
 import { NewsQueryParams, News } from "../../models";
+import { ITopicRepository, INewsRepository } from '../../repositories/contract';
 
+let topicRepositoryMock: ITopicRepository = {
+  findById: jest.fn(),
+  findAll: jest.fn(),
+  deleteById: jest.fn(),
+  update: jest.fn(),
+  findByName: jest.fn(),
+  save: jest.fn(),
+  findManyByIdList: jest.fn(),
+  findNotExistIds: jest.fn()
+};
+
+let newsRepositoryMock: INewsRepository = {
+  findById: jest.fn(),
+  findAll: jest.fn(),
+  update: jest.fn(),
+  updateStatus: jest.fn(),
+  save: jest.fn(),
+  findByTitle: jest.fn()
+}
+
+const newsData = {
+  id: 1,
+  title: "Breaking News",
+  content: "This is a breaking news article",
+  topics_ids: [1, 2, 3],
+  status: "PUBLISHED"
+};
+
+const mockTopics = [
+  { id: 1, name: "Topic 1"},
+  { id: 2, name: "Topic 2"},
+];
+
+const mockTopicListId = [
+  { topics_id: 1, news_id: 1 },
+  { topics_id: 2, news_id: 1 },
+];
+
+
+const request: NewsQueryParams = {
+  start_index: 0,
+  limit: 10,
+  status: "draft",
+  topic: "sosial"
+};
 
 describe("NewsService", () => {
     describe("Tset findById function", () => {
-        let newsRepository = {
-            findById: jest.fn()
-        };
 
         it("should return the news data if found", async () => {
           const id = 1;
-          const newsData = {
-            id: 1,
-            title: "Breaking News",
-            content: "This is a breaking news article",
-          };
-          newsRepository.findById.mockResolvedValue(newsData)
           
-          const newsService = new NewsService(newsRepository);
+          newsRepositoryMock.findById.mockResolvedValue(newsData)
+          const newsService = new NewsService(newsRepositoryMock);
           const result = await newsService.findById(id);
-          expect(newsRepository.findById).toHaveBeenCalledWith(id);
+          expect(newsRepositoryMock.findById).toHaveBeenCalledWith(id);
           expect(result).toEqual(newsData);
         });
       
         it("should throw an ApplicationException if news is not found", async () => {
           const id = 999;
-          newsRepository.findById.mockResolvedValue(null)
-          const newsService = new NewsService(newsRepository);
-          await expect(newsService.findById(id)).rejects.toThrow(
-            new ApplicationException(`news id ${id} not found`, "NotFoundError")
-          );
-          expect(newsRepository.findById).toHaveBeenCalledWith(id);
+          newsRepositoryMock.findById.mockResolvedValue(null)
+          const newsService = new NewsService(newsRepositoryMock);
+
+          const expectedErrorMessage = `news id ${id} not found`;
+          await expect(newsService.findById(id)).rejects.toThrow(ApplicationException);
+          await expect(newsService.findById(id)).rejects.toMatchObject({ message: expectedErrorMessage });
+          expect(newsRepositoryMock.findById).toHaveBeenCalledWith(id);
         });
 
     });
     describe("Test findAll function", () => {
 
-        let newsRepository = {
-            findAll: jest.fn()
-        };
         it("should return an array of news data", async () => {
-          const request = {
-            start_index: 0,
-            limit: 10,
-            status: "draft",
-            topic: "sosial"
-          };
-      
+          
           const newsData = [
             {
               id: 1,
@@ -65,178 +95,117 @@ describe("NewsService", () => {
             }
           ];
       
-          newsRepository.findAll.mockResolvedValue(newsData)
+          newsRepositoryMock.findAll.mockResolvedValue(newsData)
       
-          const newsService = new NewsService(newsRepository);
+          const newsService = new NewsService(newsRepositoryMock);
       
           const result = await newsService.findAll(request);
       
           expect(result).toEqual(newsData);
-          expect(newsRepository.findAll).toBeCalledWith({
+          expect(newsRepositoryMock.findAll).toBeCalledWith({
             start_index: request.start_index,
             limit: request.limit,
-            draft: request.status,
+            status: request.status,
             topic: request.topic
           });
         });
       
         it('should throw an ApplicationException with NotFoundError code if no news data registered', async () => {
-            // Arrange
-            const request: NewsQueryParams = {
-              start_index: 0,
-              limit: 10,
-              status: 'published',
-              topic: 'sports',
-            };
-            const expectedError = new ApplicationException(
-              'There are no news data registered',
-              'NotFoundError'
-            );
-            newsRepository.findAll.mockResolvedValue([]);
-            const newsService = new NewsService(newsRepository);
+            
+            const expectedErrorMessage = `There are no news data registered`;
+            newsRepositoryMock.findAll.mockResolvedValue([]);
+            const newsService = new NewsService(newsRepositoryMock);
         
-            // Act & Assert
-            await expect(newsService.findAll(request)).rejects.toThrow(expectedError);
+            await expect(newsService.findAll(request)).rejects.toThrow(ApplicationException);
+            await expect(newsService.findAll(request)).rejects.toMatchObject({ message: expectedErrorMessage });
         });
     });
 
     describe("Test update function", () => {
-        const mockId = 1;
-        const mockNews = {
-          id: 1,
-          title: "Test Title",
-          topics_ids: [1, 2, 3],
-          content: "test",
-          status: "published",
-        };
-        const mockTopics = [
-          { id: 1, name: "Topic 1" },
-          { id: 2, name: "Topic 2" },
-        ];
-      
-        let newsRepository = {
-            update: jest.fn()
-        };
-
-        let topicRepository = {
-            findNotExistIds: jest.fn(),
-            findManyByIdList: jest.fn(),
-        }
-
-      
+        
         it("should throw an error if a topic id does not exist", async () => {
           const mockNotExistTopicId = 3;
-          topicRepository.findNotExistIds.mockResolvedValue([3])
+          topicRepositoryMock.findNotExistIds.mockResolvedValue([3])
           const expectedErrorMessage = `topic id ${mockNotExistTopicId} not found`;
-          const newsService = new NewsService(newsRepository, topicRepository);
-          await expect(newsService.update(mockId, mockNews)).rejects.toThrow(expectedErrorMessage);
+          const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
+          await expect(newsService.update(1, newsData)).rejects.toThrow(expectedErrorMessage);
           
         });
       
         it("should update the news and related topics correctly", async () => {
-          const mockAllTopics = mockTopics;
-          const mockTopicList = [
-            { topics_id: 1, news_id: 1 },
-            { topics_id: 2, news_id: 1 },
-          ];
+          
           const mockUpdateData = {
-            id: mockId,
-            ...mockNews,
+            id: 1,
+            ...newsData,
             news_topics: [
-              { id: 1, ...mockTopicList[0] },
-              { id: 2, ...mockTopicList[1] }
+              { id: 1, ...mockTopicListId[0] },
+              { id: 2, ...mockTopicListId[1] }
             ]
           };
       
-          topicRepository.findNotExistIds.mockResolvedValue([]);
-          topicRepository.findManyByIdList.mockResolvedValue(mockAllTopics);
-          newsRepository.update.mockResolvedValue(mockUpdateData);
+          topicRepositoryMock.findNotExistIds.mockResolvedValue([]);
+          topicRepositoryMock.findManyByIdList.mockResolvedValue(mockTopics);
+          newsRepositoryMock.update.mockResolvedValue(mockUpdateData);
           
-          const newsService = new NewsService(newsRepository, topicRepository);
-
-          
-          await expect(newsService.update(mockId, mockNews)).resolves.toEqual(mockUpdateData);
-          await expect(topicRepository.findManyByIdList).toHaveBeenCalledWith(mockNews.topics_ids);
-          await expect(newsRepository.update).toHaveBeenCalledWith(mockId, mockNews, mockTopicList);
+          const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
+          await expect(newsService.update(1, newsData)).resolves.toEqual(mockUpdateData);
+          await expect(topicRepositoryMock.findManyByIdList).toHaveBeenCalledWith(newsData.topics_ids);
+          await expect(newsRepositoryMock.update).toHaveBeenCalledWith(1, newsData, mockTopicListId);
         });
       
         it("should throw an error if update fails", async () => {
           const expectedErrorMessage = "failed update data";
       
-          topicRepository.findNotExistIds.mockResolvedValue([]);
-          topicRepository.findManyByIdList.mockResolvedValue(mockTopics);
-          newsRepository.update.mockResolvedValue(null);
+          topicRepositoryMock.findNotExistIds.mockResolvedValue([]);
+          topicRepositoryMock.findManyByIdList.mockResolvedValue(mockTopics);
+          newsRepositoryMock.update.mockResolvedValue(null);
       
-          const newsService = new NewsService(newsRepository, topicRepository);
+          const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
 
-          await expect(newsService.update(mockId, mockNews)).rejects.toThrow(ApplicationException);
-          await expect(newsService.update(mockId, mockNews)).rejects.toMatchObject({ message: expectedErrorMessage });
+          await expect(newsService.update(1, newsData)).rejects.toThrow(ApplicationException);
+          await expect(newsService.update(1, newsData)).rejects.toMatchObject({ message: expectedErrorMessage });
         });
     });
 
     describe("Test updateStatus function", () => {
-        const id = 1;
-        const statusData = "PUBLISHED";
-        
-        let newsRepository = {
-            updateStatus: jest.fn()
-        };
-
-        let topicRepository = {}
         it("should return updated news data", async () => {
-            newsRepository.updateStatus.mockResolvedValue({id, statusData})
+          newsRepositoryMock.updateStatus.mockResolvedValue({id:newsData.id , status:newsData.status})
             
-            const newsService = new NewsService(newsRepository, topicRepository);
-            const updatedNewsData = await newsService.updateStatus(id, statusData);
-            // Assert
-            expect(updatedNewsData).toEqual({id, statusData});
+          const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
+          const updatedNewsData = await newsService.updateStatus(newsData.id, newsData.status);
+          
+          expect(updatedNewsData).toEqual({id:newsData.id , status:newsData.status});
         });
     
         it("should throw ApplicationException when update fails", async () => {
             const expectedErrorMessage = "failed update status data";
-            newsRepository.updateStatus.mockResolvedValue(null)
-            const newsService = new NewsService(newsRepository, topicRepository);
+            newsRepositoryMock.updateStatus.mockResolvedValue(null)
+            const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
 
-            await expect(newsService.updateStatus(id, statusData)).rejects.toThrow(ApplicationException);
-            await expect(newsService.updateStatus(id, statusData)).rejects.toMatchObject({ message: expectedErrorMessage });
+            await expect(newsService.updateStatus(newsData.id, newsData.status)).rejects.toThrow(ApplicationException);
+            await expect(newsService.updateStatus(newsData.id, newsData.status)).rejects.toMatchObject({ message: expectedErrorMessage });
         });
     });
 
     describe("Test save function", () => {
-        const mockNews = {
-            id: 1,
-            title: "Test Title",
-            topics_ids: [1, 2, 3],
-            content: "test",
-            status: "published",
-          };
-
-        let newsRepository = {
-            save: jest.fn(),
-            findByTitle: jest.fn(),
-        };
-
-        let topicRepository = {
-            findNotExistIds: jest.fn(),
-            findManyByIdList: jest.fn(),
-        }
+        
         it("should throw an error if topic IDs do not exist", async () => {
             const mockNotExistTopicId = 1
             const expectedErrorMessage = `topic id ${mockNotExistTopicId} not found`;
 
-            topicRepository.findNotExistIds.mockResolvedValue([mockNotExistTopicId]);
+            topicRepositoryMock.findNotExistIds.mockResolvedValue([mockNotExistTopicId]);
             
-            const newsService = new NewsService(newsRepository, topicRepository);
-            await expect(newsService.save(mockNews)).rejects.toThrow(ApplicationException);
-            await expect(newsService.save(mockNews)).rejects.toThrow(expectedErrorMessage);
+            const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
+            await expect(newsService.save(newsData)).rejects.toThrow(ApplicationException);
+            await expect(newsService.save(newsData)).rejects.toThrow(expectedErrorMessage);
         });
       
         it("should throw a validation error if news title already exists", async () => {
-          topicRepository.findNotExistIds.mockResolvedValue([]);
-          newsRepository.findByTitle.mockResolvedValue(mockNews)
-          const newsService = new NewsService(newsRepository, topicRepository);
-          await expect(newsService.save(mockNews)).rejects.toThrow(ApplicationException);
-          await expect(newsService.save(mockNews)).rejects.toEqual(
+          topicRepositoryMock.findNotExistIds.mockResolvedValue([]);
+          newsRepositoryMock.findByTitle.mockResolvedValue(newsData)
+          const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
+          await expect(newsService.save(newsData)).rejects.toThrow(ApplicationException);
+          await expect(newsService.save(newsData)).rejects.toEqual(
             new ApplicationException("Validation error", "ValidationError", [
               {
                 param: 'title',
@@ -248,29 +217,24 @@ describe("NewsService", () => {
       
         it("should save news and topics if all data is valid", async () => {
           
-            const mockTopicList = [
-                { topics_id: 1, news_id: 1 },
-                { topics_id: 2, news_id: 1 },
-            ];
-            
             const newsResult = {
                 id: 1,
-                ...mockNews,
+                ...newsData,
                 news_topics: [
-                  { id: 1, ...mockTopicList[0] },
-                  { id: 2, ...mockTopicList[1] }
+                  { id: 1, ...mockTopicListId[0] },
+                  { id: 2, ...mockTopicListId[1] }
                 ]
               };
           
-            topicRepository.findNotExistIds.mockResolvedValue([]);
-            topicRepository.findManyByIdList.mockResolvedValue(mockTopicList);
-            newsRepository.findByTitle.mockResolvedValue(undefined)
-            newsRepository.save.mockResolvedValue(newsResult)
+            topicRepositoryMock.findNotExistIds.mockResolvedValue([]);
+            topicRepositoryMock.findManyByIdList.mockResolvedValue(mockTopicListId);
+            newsRepositoryMock.findByTitle.mockResolvedValue(undefined)
+            newsRepositoryMock.save.mockResolvedValue(newsResult)
 
-            const newsService = new NewsService(newsRepository, topicRepository);
+            const newsService = new NewsService(newsRepositoryMock, topicRepositoryMock);
             
-            await expect(newsService.save(mockNews)).resolves.toEqual(newsResult);
-            await expect(topicRepository.findManyByIdList).toHaveBeenCalledWith(mockNews.topics_ids);
+            await expect(newsService.save(newsData)).resolves.toEqual(newsResult);
+            await expect(topicRepositoryMock.findManyByIdList).toHaveBeenCalledWith(newsData.topics_ids);
         });
     });
 
