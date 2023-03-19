@@ -3,6 +3,8 @@ export interface News {
     title: string
     content: string
     status: string
+    news_topics?: NewsTopics[] | null
+    topics?: Topics[] | null
 }
 
 export interface Topics {
@@ -11,12 +13,19 @@ export interface Topics {
 }
 
 export interface NewsTopics {
+    id: number
     news_id: number
     topics_id: number
 }
 
-export interface NewsRequest {
-    title: string
-    content: string
-    status: string
+export interface NewsQueryParams {
+    start_index?: number;
+    limit?: number;
+    status?: string;
+    topic?: string;
+}
+
+export interface TopicQueryParams {
+    start_index?: number;
+    limit?: number;
 }

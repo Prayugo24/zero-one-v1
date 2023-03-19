@@ -2,7 +2,6 @@ import express, { Application, Request, Response } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { config as dotenv } from 'dotenv';
-
 import { morganMiddleware as Morgan } from './src/middlewares/MorganMiddleware';
 import { exceptionHandler } from './src/middlewares/ExceptionHandler';
 import { AppV1 } from './src/routers/v1';

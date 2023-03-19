@@ -1,0 +1,968 @@
+[2023-03-18 13:32:26] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:34:40] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:35:12] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:35:30] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:41:53] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:41:57] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:42:22] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:42:46] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:43:06] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:44:54] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:45:28] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:45:53] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:48:38] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:49:00] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:49:22] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:51:54] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 13:52:00] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:01:32] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:01:58] - [[31merror[39m]: [31muncaughtException: [39m
+[31m  [38;2;255;30;30m×[0m Expected a semicolon[39m
+[31m   ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/index.ts[0m:5:1][39m
+[31m [2m5[0m │     const newsRepository: INewsRepository = new NewsRepository();[39m
+[31m [2m6[0m │     return {[39m
+[31m [2m7[0m │         ""[39m
+[31m [2m8[0m │     }[39m
+[31m   · [38;2;246;87;248m    ─[0m[39m
+[31m [2m9[0m │ }[39m
+[31m   ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31mError: [39m
+[31m  [38;2;255;30;30m×[0m Expected a semicolon[39m
+[31m   ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/index.ts[0m:5:1][39m
+[31m [2m5[0m │     const newsRepository: INewsRepository = new NewsRepository();[39m
+[31m [2m6[0m │     return {[39m
+[31m [2m7[0m │         ""[39m
+[31m [2m8[0m │     }[39m
+[31m   · [38;2;246;87;248m    ─[0m[39m
+[31m [2m9[0m │ }[39m
+[31m   ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31m    at Compiler.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:241:29)[39m
+[31m    at Object.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:348:21)[39m
+[31m    at Object.transpile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/transpilers/swc.ts:69:39)[39m
+[31m    at /Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1355:35[39m
+[31m    at Object.compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1458:13)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1617:30)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-18 14:02:12] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:02:30] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:03:08] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:04:15] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:08:42] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:09:05] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:09:34] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:09:56] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:10:02] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:10:13] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:10:24] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:11:40] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:12:25] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:14:12] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:14:50] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:15:47] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:15:55] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:16:48] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:17:33] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:19:11] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:19:59] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:20:44] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:6:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:22:18] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:23:39] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:24:53] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:26:34] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:27:09] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:11:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:27:21] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:29:30] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:29:43] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:30:57] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:33:08] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:33:23] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:10:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:33:29] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:11:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:33:45] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:34:00] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:36:23] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 14:37:29] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 15:48:24] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 15:56:33] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:21:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 16:00:51] - [[31merror[39m]: [31muncaughtException: username is not defined[39m
+[31mReferenceError: username is not defined[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:21:52)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[31m    at Module.require (internal/modules/cjs/loader.js:974:19)[39m
+[31m    at require (internal/modules/cjs/helpers.js:101:18)[39m
+[2023-03-18 16:01:04] - [[31merror[39m]: [31muncaughtException: Please install mysql2 package manually[39m
+[31mError: Please install mysql2 package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/connection-manager.js:25:21)[39m
+[31m    at new MysqlDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/mysql/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:21:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 16:03:31] - [[31merror[39m]: [31muncaughtException: Please install pg package manually[39m
+[31mError: Please install pg package manually[39m
+[31m    at ConnectionManager._loadDialectModule (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/connection-manager.js:81:15)[39m
+[31m    at new ConnectionManager (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/connection-manager.js:18:24)[39m
+[31m    at new PostgresDialect (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/index.js:15:30)[39m
+[31m    at new Sequelize (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:368:20)[39m
+[31m    at getNewsContentDb (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/models/db/Sequelize.ts:12:25)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/Table.ts:9:42)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[2023-03-18 16:14:45] - [[31merror[39m]: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/route.js:211:15)[39m
+[31m    at Function.get (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at NewsRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/NewsRoutes.ts:14:17)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:14:13)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-18 16:37:49] - [[31merror[39m]: [31muncaughtException: [39m
+[31m  [38;2;255;30;30m×[0m Expected 'from', got 'export'[39m
+[31m   ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/NewsRoutes.ts[0m:2:1][39m
+[31m [2m2[0m │ import { NewsController } from '../../controllers/NewsController';[39m
+[31m [2m3[0m │ import { crea}[39m
+[31m [2m4[0m │ [39m
+[31m [2m5[0m │ export class NewsRoutes extends BaseRoutes {[39m
+[31m   · [38;2;246;87;248m──────[0m[39m
+[31m [2m6[0m │   private _newsController: NewsController;[39m
+[31m [2m7[0m │ [39m
+[31m [2m8[0m │   constructor(newsController: NewsController) {[39m
+[31m   ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31mError: [39m
+[31m  [38;2;255;30;30m×[0m Expected 'from', got 'export'[39m
+[31m   ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/NewsRoutes.ts[0m:2:1][39m
+[31m [2m2[0m │ import { NewsController } from '../../controllers/NewsController';[39m
+[31m [2m3[0m │ import { crea}[39m
+[31m [2m4[0m │ [39m
+[31m [2m5[0m │ export class NewsRoutes extends BaseRoutes {[39m
+[31m   · [38;2;246;87;248m──────[0m[39m
+[31m [2m6[0m │   private _newsController: NewsController;[39m
+[31m [2m7[0m │ [39m
+[31m [2m8[0m │   constructor(newsController: NewsController) {[39m
+[31m   ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31m    at Compiler.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:241:29)[39m
+[31m    at Object.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:348:21)[39m
+[31m    at Object.transpile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/transpilers/swc.ts:69:39)[39m
+[31m    at /Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1355:35[39m
+[31m    at Object.compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1458:13)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1617:30)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-18 16:39:52] - [[31merror[39m]: [31muncaughtException: val is not defined[39m
+[31mReferenceError: val is not defined[39m
+[31m    at NewsRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/NewsRoutes.ts:15:59)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:14:13)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[31m    at Module.require (internal/modules/cjs/loader.js:974:19)[39m
+[31m    at require (internal/modules/cjs/helpers.js:101:18)[39m
+[2023-03-18 22:39:02] - [[31merror[39m]: [31muncaughtException: [39m
+[31m  [38;2;255;30;30m×[0m Expression expected[39m
+[31m    ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts[0m:18:1][39m
+[31m [2m18[0m │ [39m
+[31m [2m19[0m │ const topicService = new [39m
+[31m [2m20[0m │ [39m
+[31m [2m21[0m │ export class AppV1 extends BaseRoutes {[39m
+[31m    · [38;2;246;87;248m──────[0m[39m
+[31m [2m22[0m │   constructor() {[39m
+[31m [2m23[0m │     super();[39m
+[31m [2m24[0m │   }[39m
+[31m    ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31mError: [39m
+[31m  [38;2;255;30;30m×[0m Expression expected[39m
+[31m    ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts[0m:18:1][39m
+[31m [2m18[0m │ [39m
+[31m [2m19[0m │ const topicService = new [39m
+[31m [2m20[0m │ [39m
+[31m [2m21[0m │ export class AppV1 extends BaseRoutes {[39m
+[31m    · [38;2;246;87;248m──────[0m[39m
+[31m [2m22[0m │   constructor() {[39m
+[31m [2m23[0m │     super();[39m
+[31m [2m24[0m │   }[39m
+[31m    ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31m    at Compiler.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:241:29)[39m
+[31m    at Object.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:348:21)[39m
+[31m    at Object.transpile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/transpilers/swc.ts:69:39)[39m
+[31m    at /Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1355:35[39m
+[31m    at Object.compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1458:13)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1617:30)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-18 22:52:56] - [[31merror[39m]: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/route.js:211:15)[39m
+[31m    at Function.get (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at TopicRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/TopicRoutes.ts:15:21)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:22:14)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-19 01:28:21] - [[31merror[39m]: [31muncaughtException: Route.delete() requires a callback function but got a [object Undefined][39m
+[31mError: Route.delete() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at TopicRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/TopicRoutes.ts:18:27)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:22:14)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-19 01:54:05] - [[31merror[39m]: [31muncaughtException: Route.delete() requires a callback function but got a [object Undefined][39m
+[31mError: Route.delete() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at TopicRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/TopicRoutes.ts:18:27)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:22:14)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-19 01:54:29] - [[31merror[39m]: [31muncaughtException: Route.delete() requires a callback function but got a [object Undefined][39m
+[31mError: Route.delete() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as delete] (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at TopicRoutes.routes (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/TopicRoutes.ts:18:27)[39m
+[31m    at Object.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/routers/v1/index.ts:22:14)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:1085:14)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1618:23)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
+[2023-03-19 03:50:07] - [[31merror[39m]: [31muncaughtException: [39m
+[31m  [38;2;255;30;30m×[0m Expected a semicolon[39m
+[31m    ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/TopicRepository.ts[0m:71:1][39m
+[31m [2m71[0m │             attributes: ['id'],[39m
+[31m [2m72[0m │             where: { id: { [Op.in]: ids } }[39m
+[31m [2m73[0m │         });[39m
+[31m [2m74[0m │         const existingIdSet = existingIds.map(row => row.get({plain:true}).id));[39m
+[31m    · [38;2;246;87;248m                                                                              ─[0m[39m
+[31m [2m75[0m │         console.log(existingIdSet)[39m
+[31m [2m76[0m │         const missingIds = ids.filter(id => !existingIdSet.has(id));[39m
+[31m [2m77[0m │         return missingIds;[39m
+[31m    ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31mError: [39m
+[31m  [38;2;255;30;30m×[0m Expected a semicolon[39m
+[31m    ╭─[[38;2;92;157;255;1;4m/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/src/repositories/TopicRepository.ts[0m:71:1][39m
+[31m [2m71[0m │             attributes: ['id'],[39m
+[31m [2m72[0m │             where: { id: { [Op.in]: ids } }[39m
+[31m [2m73[0m │         });[39m
+[31m [2m74[0m │         const existingIdSet = existingIds.map(row => row.get({plain:true}).id));[39m
+[31m    · [38;2;246;87;248m                                                                              ─[0m[39m
+[31m [2m75[0m │         console.log(existingIdSet)[39m
+[31m [2m76[0m │         const missingIds = ids.filter(id => !existingIdSet.has(id));[39m
+[31m [2m77[0m │         return missingIds;[39m
+[31m    ╰────[39m
+
+
+[31mCaused by:[39m
+[31m    Syntax Error[39m
+[31m    at Compiler.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:241:29)[39m
+[31m    at Object.transformSync (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/@swc/core/index.js:348:21)[39m
+[31m    at Object.transpile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/transpilers/swc.ts:69:39)[39m
+[31m    at /Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1355:35[39m
+[31m    at Object.compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1458:13)[39m
+[31m    at Module.m._compile (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1617:30)[39m
+[31m    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/.nvm/versions/node/v14.20.1/lib/node_modules/ts-node/src/index.ts:1621:12)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:950:32)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:790:12)[39m
