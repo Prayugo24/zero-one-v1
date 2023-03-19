@@ -2363,3 +2363,96 @@
 [32m    status: 'PUBLISHED'[39m
 [32m  }[39m
 [32m}[39m
+[2023-03-20 01:05:48] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:06:02] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'news_created',[39m
+[32m  param: {[39m
+[32m    title: 'Text1',[39m
+[32m    content: 'tetsing',[39m
+[32m    topics_ids: [ 1 ],[39m
+[32m    status: 'PUBLISHED'[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:37:20] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:41:59] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:42:12] - [[32minfo[39m]: [32m{ event: 'topic_created', param: { name: 'Industri' } }[39m
+[2023-03-20 01:42:18] - [[32minfo[39m]: [32m{ event: 'get_topic_all', param: [ { id: 1, name: 'Industri' } ] }[39m
+[2023-03-20 01:42:21] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_topic_error',[39m
+[32m  errors: [ApplicationException [NotFoundError]: Topic id '2' not found] {[39m
+[32m    stack: undefined,[39m
+[32m    errorCode: 'NotFoundError',[39m
+[32m    errors: undefined[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:42:26] - [[32minfo[39m]: [32m{ event: 'get_topic', param: { id: 1, name: 'Industri' } }[39m
+[2023-03-20 01:42:35] - [[32minfo[39m]: [32m{ event: 'topic_updated', param: { name: 'Seleb' } }[39m
+[2023-03-20 01:42:41] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'news_created',[39m
+[32m  param: {[39m
+[32m    title: 'Text1',[39m
+[32m    content: 'tetsing',[39m
+[32m    topics_ids: [ 1 ],[39m
+[32m    status: 'PUBLISHED'[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:42:49] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'news_update_status_error',[39m
+[32m  errors: [ApplicationException [UnknownError]: failed update status data] {[39m
+[32m    stack: undefined,[39m
+[32m    errorCode: 'UnknownError',[39m
+[32m    errors: undefined[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:43:07] - [[32minfo[39m]: [32m{ event: 'news_updated_status', param: 'DRAFT' }[39m
+[2023-03-20 01:43:27] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text1',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'DRAFT',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:43:38] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'news_created',[39m
+[32m  param: {[39m
+[32m    title: 'Text2',[39m
+[32m    content: 'tetsing',[39m
+[32m    topics_ids: [ 1 ],[39m
+[32m    status: 'PUBLISHED'[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:43:46] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text1',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'DRAFT',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:43:53] - [[32minfo[39m]: [32m{ event: 'get_news', param: '1' }[39m
+[2023-03-20 01:44:03] - [[32minfo[39m]: [32m{ event: 'topic_created', param: { name: 'Industri' } }[39m
+[2023-03-20 01:44:29] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'news_updated',[39m
+[32m  param: {[39m
+[32m    title: 'Text11',[39m
+[32m    content: 'tetsing',[39m
+[32m    topics_ids: [ 1, 2 ],[39m
+[32m    status: 'PUBLISHED'[39m
+[32m  }[39m
+[32m}[39m
