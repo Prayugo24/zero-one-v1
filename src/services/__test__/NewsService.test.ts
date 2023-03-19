@@ -105,7 +105,7 @@ describe("NewsService", () => {
           expect(newsRepositoryMock.findAll).toBeCalledWith({
             start_index: request.start_index,
             limit: request.limit,
-            draft: request.status,
+            status: request.status,
             topic: request.topic
           });
         });

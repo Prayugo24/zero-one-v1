@@ -30,7 +30,7 @@ export class NewsService implements INewsService {
       let whereParams = {
           start_index: request?.start_index,
           limit: request?.limit,
-          draft: request?.status,
+          status: request?.status,
           topic: request?.topic
       };
 

@@ -2456,3 +2456,371 @@
 [32m    status: 'PUBLISHED'[39m
 [32m  }[39m
 [32m}[39m
+[2023-03-20 01:50:38] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:50:40] - [[32minfo[39m]: [32m{ event: 'get_news', param: '1' }[39m
+[2023-03-20 01:51:05] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:51:35] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:51:41] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:52:27] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:52:30] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all_error',[39m
+[32m  errors: Error[39m
+[32m      at Query.run (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/query.js:76:25)[39m
+[32m      at /Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:650:28[39m
+[32m      at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[32m      at async PostgresQueryInterface.select (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[32m      at async Function.findAll (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/model.js:1816:21) {[39m
+[32m    name: 'SequelizeDatabaseError',[39m
+[32m    parent: error: missing FROM-clause entry for table "news_topics"[39m
+[32m        at Parser.parseErrorMessage (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:369:69)[39m
+[32m        at Parser.handlePacket (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:188:21)[39m
+[32m        at Parser.parse (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:103:30)[39m
+[32m        at Socket.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/index.ts:7:48)[39m
+[32m        at Socket.emit (events.js:400:28)[39m
+[32m        at Socket.emit (domain.js:475:12)[39m
+[32m        at addChunk (internal/streams/readable.js:293:12)[39m
+[32m        at readableAddChunk (internal/streams/readable.js:267:9)[39m
+[32m        at Socket.Readable.push (internal/streams/readable.js:206:10)[39m
+[32m        at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {[39m
+[32m      length: 123,[39m
+[32m      severity: 'ERROR',[39m
+[32m      code: '42P01',[39m
+[32m      detail: undefined,[39m
+[32m      hint: undefined,[39m
+[32m      position: '421',[39m
+[32m      internalPosition: undefined,[39m
+[32m      internalQuery: undefined,[39m
+[32m      where: undefined,[39m
+[32m      schema: undefined,[39m
+[32m      table: undefined,[39m
+[32m      column: undefined,[39m
+[32m      dataType: undefined,[39m
+[32m      constraint: undefined,[39m
+[32m      file: 'parse_relation.c',[39m
+[32m      line: '3607',[39m
+[32m      routine: 'errorMissingRTE',[39m
+[32m      sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m      parameters: undefined[39m
+[32m    },[39m
+[32m    original: error: missing FROM-clause entry for table "news_topics"[39m
+[32m        at Parser.parseErrorMessage (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:369:69)[39m
+[32m        at Parser.handlePacket (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:188:21)[39m
+[32m        at Parser.parse (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:103:30)[39m
+[32m        at Socket.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/index.ts:7:48)[39m
+[32m        at Socket.emit (events.js:400:28)[39m
+[32m        at Socket.emit (domain.js:475:12)[39m
+[32m        at addChunk (internal/streams/readable.js:293:12)[39m
+[32m        at readableAddChunk (internal/streams/readable.js:267:9)[39m
+[32m        at Socket.Readable.push (internal/streams/readable.js:206:10)[39m
+[32m        at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {[39m
+[32m      length: 123,[39m
+[32m      severity: 'ERROR',[39m
+[32m      code: '42P01',[39m
+[32m      detail: undefined,[39m
+[32m      hint: undefined,[39m
+[32m      position: '421',[39m
+[32m      internalPosition: undefined,[39m
+[32m      internalQuery: undefined,[39m
+[32m      where: undefined,[39m
+[32m      schema: undefined,[39m
+[32m      table: undefined,[39m
+[32m      column: undefined,[39m
+[32m      dataType: undefined,[39m
+[32m      constraint: undefined,[39m
+[32m      file: 'parse_relation.c',[39m
+[32m      line: '3607',[39m
+[32m      routine: 'errorMissingRTE',[39m
+[32m      sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m      parameters: undefined[39m
+[32m    },[39m
+[32m    sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m    parameters: {}[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:52:48] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:52:48] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:55:56] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:56:03] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:56:30] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:56:40] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:56:40] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all_error',[39m
+[32m  errors: Error[39m
+[32m      at Query.run (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/postgres/query.js:76:25)[39m
+[32m      at /Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/sequelize.js:650:28[39m
+[32m      at processTicksAndRejections (internal/process/task_queues.js:95:5)[39m
+[32m      at async PostgresQueryInterface.select (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[32m      at async Function.findAll (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/sequelize/src/model.js:1816:21) {[39m
+[32m    name: 'SequelizeDatabaseError',[39m
+[32m    parent: error: missing FROM-clause entry for table "news_topics"[39m
+[32m        at Parser.parseErrorMessage (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:369:69)[39m
+[32m        at Parser.handlePacket (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:188:21)[39m
+[32m        at Parser.parse (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:103:30)[39m
+[32m        at Socket.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/index.ts:7:48)[39m
+[32m        at Socket.emit (events.js:400:28)[39m
+[32m        at Socket.emit (domain.js:475:12)[39m
+[32m        at addChunk (internal/streams/readable.js:293:12)[39m
+[32m        at readableAddChunk (internal/streams/readable.js:267:9)[39m
+[32m        at Socket.Readable.push (internal/streams/readable.js:206:10)[39m
+[32m        at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {[39m
+[32m      length: 123,[39m
+[32m      severity: 'ERROR',[39m
+[32m      code: '42P01',[39m
+[32m      detail: undefined,[39m
+[32m      hint: undefined,[39m
+[32m      position: '421',[39m
+[32m      internalPosition: undefined,[39m
+[32m      internalQuery: undefined,[39m
+[32m      where: undefined,[39m
+[32m      schema: undefined,[39m
+[32m      table: undefined,[39m
+[32m      column: undefined,[39m
+[32m      dataType: undefined,[39m
+[32m      constraint: undefined,[39m
+[32m      file: 'parse_relation.c',[39m
+[32m      line: '3607',[39m
+[32m      routine: 'errorMissingRTE',[39m
+[32m      sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m      parameters: undefined[39m
+[32m    },[39m
+[32m    original: error: missing FROM-clause entry for table "news_topics"[39m
+[32m        at Parser.parseErrorMessage (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:369:69)[39m
+[32m        at Parser.handlePacket (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:188:21)[39m
+[32m        at Parser.parse (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/parser.ts:103:30)[39m
+[32m        at Socket.<anonymous> (/Volumes/Eldier/Project/project_web/Nodejs_training/Zero-one-v1/node_modules/pg-protocol/src/index.ts:7:48)[39m
+[32m        at Socket.emit (events.js:400:28)[39m
+[32m        at Socket.emit (domain.js:475:12)[39m
+[32m        at addChunk (internal/streams/readable.js:293:12)[39m
+[32m        at readableAddChunk (internal/streams/readable.js:267:9)[39m
+[32m        at Socket.Readable.push (internal/streams/readable.js:206:10)[39m
+[32m        at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {[39m
+[32m      length: 123,[39m
+[32m      severity: 'ERROR',[39m
+[32m      code: '42P01',[39m
+[32m      detail: undefined,[39m
+[32m      hint: undefined,[39m
+[32m      position: '421',[39m
+[32m      internalPosition: undefined,[39m
+[32m      internalQuery: undefined,[39m
+[32m      where: undefined,[39m
+[32m      schema: undefined,[39m
+[32m      table: undefined,[39m
+[32m      column: undefined,[39m
+[32m      dataType: undefined,[39m
+[32m      constraint: undefined,[39m
+[32m      file: 'parse_relation.c',[39m
+[32m      line: '3607',[39m
+[32m      routine: 'errorMissingRTE',[39m
+[32m      sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m      parameters: undefined[39m
+[32m    },[39m
+[32m    sql: 'SELECT "news".*, "news_topics"."id" AS "news_topics.id", "news_topics"."news_id" AS "news_topics.news_id", "news_topics"."topics_id" AS "news_topics.topics_id" FROM (SELECT "news"."id", "news"."title", "news"."content", "news"."status", "news_topics->topics"."id" AS "news_topics.topics.id", "news_topics->topics"."name" AS "news_topics.topics.name" FROM "news" AS "news" INNER JOIN "topics" AS "news_topics->topics" ON "news_topics"."topics_id" = "news_topics->topics"."id" WHERE ( SELECT "news_topics"."news_id" FROM "news_topics" AS "news_topics" INNER JOIN "topics" AS "topics" ON "news_topics"."topics_id" = "topics"."id" WHERE ("news_topics"."news_id" = "news"."id") LIMIT 1 ) IS NOT NULL LIMIT 10 OFFSET 0) AS "news" INNER JOIN "news_topics" AS "news_topics" ON "news"."id" = "news_topics"."news_id";',[39m
+[32m    parameters: {}[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 01:58:09] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:58:16] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:58:57] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:59:00] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 01:59:35] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 01:59:39] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 02:00:14] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 02:00:17] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 02:00:53] - [[32minfo[39m]: [32mKoneksi ke database berhasil.[39m
+[2023-03-20 02:01:17] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all_error',[39m
+[32m  errors: [ApplicationException [NotFoundError]: There are no news data registered] {[39m
+[32m    stack: undefined,[39m
+[32m    errorCode: 'NotFoundError',[39m
+[32m    errors: undefined[39m
+[32m  }[39m
+[32m}[39m
+[2023-03-20 02:01:32] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all',[39m
+[32m  param: [[39m
+[32m    {[39m
+[32m      id: 2,[39m
+[32m      title: 'Text2',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      id: 1,[39m
+[32m      title: 'Text11',[39m
+[32m      content: 'tetsing',[39m
+[32m      status: 'PUBLISHED',[39m
+[32m      news_topics: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+[2023-03-20 02:01:41] - [[32minfo[39m]: [32m{[39m
+[32m  event: 'get_news_all_error',[39m
+[32m  errors: [ApplicationException [NotFoundError]: There are no news data registered] {[39m
+[32m    stack: undefined,[39m
+[32m    errorCode: 'NotFoundError',[39m
+[32m    errors: undefined[39m
+[32m  }[39m
+[32m}[39m

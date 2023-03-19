@@ -177,8 +177,19 @@ export class NewsRepository implements INewsRepository {
         if(status !='') {
             whereNews.status = status;
         }
-        if(topic !='') { 
-            whereTopic.name = topic;
+        console.log("req",request)
+        if (topic !== '') { 
+            const findTopic = await topicsTable.findOne({
+                where: {
+                    name: topic
+                }
+            });
+    
+            if (findTopic) {
+                whereTopic.topics_id = {
+                    [Op.eq]: findTopic.get('id')
+                };
+            }
         }
         
         const findData = await newsTable.findAll({
@@ -189,15 +200,15 @@ export class NewsRepository implements INewsRepository {
                   {
                     model: topicsTable,
                     as: 'topics',
-                    where: whereTopic,
+                    
                   }
                 ],
                 as: 'news_topics',
-                required: true,
+                where: whereTopic,
               }
             ],
-            where:whereNews,
-            subQuery: false,
+            where: whereNews,
+            
             limit: take,
             offset: (skip - 1) * take,
             
