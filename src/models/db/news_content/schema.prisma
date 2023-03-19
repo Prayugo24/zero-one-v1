@@ -1,0 +1,35 @@
+generator client {
+  provider        = "prisma-client-js"
+  output          = "../generated/news_content"
+  previewFeatures = ["interactiveTransactions"]
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_NEWS")
+}
+
+model news {
+  id                    Int                @id @default(autoincrement())
+  title                 String
+  content               String             @db.Text
+  status                String
+  
+  @@map(name: "news")
+}
+
+model topics {
+  id                    Int                @id @default(autoincrement())
+  name                  String
+  
+  @@map(name: "topics")
+}
+
+model news_topics {
+  id                    Int                @id @default(autoincrement())
+  news_id               Int
+  topics_id             Int
+  
+  
+  @@map(name: "news_topics")
+}

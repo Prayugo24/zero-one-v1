@@ -31,7 +31,6 @@ const format = combine(
   colorize({ all: true }),
   timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
   printf(input => `[${input.timestamp}] - [${input.level}]: ${input.message}`),
-
 )
 
 const transports = [
@@ -39,8 +38,6 @@ const transports = [
   new winston.transports.File({ filename: 'logs/apps/app.log', level: 'info', dirname: "logs/apps" }),
   new winston.transports.Console()
 ]
-
-
 
 const logger = winston.createLogger({
   level: level(),

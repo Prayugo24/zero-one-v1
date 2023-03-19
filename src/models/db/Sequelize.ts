@@ -1,14 +1,14 @@
 import logger from '../../utils/Logger';
 import { Sequelize, ModelAttributeColumnOptions, DataTypes } from 'sequelize';
-import { config as dotenv } from 'dotenv';
-dotenv()
+import Constanta from '../../utils/Constanta';
 
 let newsContentDb: Sequelize | null
 
 export function getNewsContentDb(): Sequelize {
+    
     if (!newsContentDb) {
         newsContentDb = new Sequelize(
-            process.env.DATABASE_NEWS || "",
+            Constanta.DATABSE_URL,
             {
                 define: {
                     timestamps:false
@@ -16,6 +16,13 @@ export function getNewsContentDb(): Sequelize {
                 logging: (msg) => logger.http(msg)
             }
         )
+          // Tes koneksi ke database
+        newsContentDb.authenticate().then(() => {
+            logger.info({message:'Koneksi ke database berhasil.'});
+        }).catch((err) => {
+            logger.info({message:'Gagal koneksi ke database:', errors:err});
+        });
+        
     }
     return newsContentDb;
 }
